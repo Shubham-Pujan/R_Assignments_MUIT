@@ -54,6 +54,7 @@ cor(eruptions,waiting)
 data("InsectSprays")   # loading and attaching the dataset
 attach(InsectSprays)
 str(InsectSprays)
+summary(InsectSprays)
 
 par(mfrow=c(1,2))
 #boxplots for spray type A
